@@ -63,7 +63,7 @@ These plugins have been forked from the original version produced by a third par
 
 These settings can be used to place limits on file types that can be uploaded, exclude particular HTML tags from being used in WYSIWYG editors and set up Captcha. **There is no need to change any settings from the Omeka defaults.** 
 
-### [→](/admin/settings/edit-search)
+### Solr Search [→](/admin/settings/edit-search)
 
 The SolrSearch plugin used by MOAS replaces all of Omeka's core search functionality. **None of these settings will have any affect.**
 
