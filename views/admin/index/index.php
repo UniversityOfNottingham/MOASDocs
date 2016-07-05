@@ -1,4 +1,4 @@
-<?php 
+<?php
   queue_js_file('items');
   queue_js_file('tabs');
   echo head(array('title' => __('MOAS Docs'), 'bodyclass' => 'moas-docs'));
@@ -15,7 +15,9 @@
 
 
 <section class="ten columns alpha">
-  
+
+    <p><strong>These documents are in progress – some information may be incomplete, and content that may need to be revised is <mark>marked</mark>.</strong></p>
+
     <div id="moas-content">
       <h1>Content</h1>
       <?php echo $Parsedown->text(file_get_contents(dirname(__FILE__) . '/../../../docs/content.md')); ?>
@@ -24,7 +26,7 @@
       <h1>Config</h1>
       <?php echo $Parsedown->text(file_get_contents(dirname(__FILE__) . '/../../../docs/config.md')); ?>
     </div>
-  
+
 </section>
 
 <script>
