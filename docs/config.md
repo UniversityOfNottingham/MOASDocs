@@ -1,5 +1,3 @@
-> This document is in progress. Any content that may need to be revised is <mark>marked</mark>.
-
 ## Item Types
 
 Omeka provides a selection of [Item Types](/admin/item-types) by default, only some of which are supported by the <mark>silver theme</mark>:
@@ -27,16 +25,15 @@ These plugins have been produced by the University to add functionality not prov
 * **MOASElements:** Adds an additional set of metadata separare from the built in Dublin Core and Item Type sets.
 * **MOASItemTypes:** Adds additional item types and associated Item Type Metadata fields.
 * **MOASDerivatives:** When uploading images to Omeka derivative images are created (fullsize, thumbnail, square thumbnail). While the sizes of these images can be defined in Omeka's settings, this plugin adds an extra size ('header', 1500px).
-* **MOASAssetRequest:** <mark>Adds a form to specific item types where a user can request permission to use assets from the archive.</mark> In progress.
 * **MOASDocs:** Adds documentation to the admin area of an Omeka installation. If you're reading this the plugin is insalled and active on this installation.
 
 
 ### Third party plugins
 
+* **SimplePages:** Included as part of Omeka's installation, SimplePages allows you to create freeform pages that are separate from the Collection/Item hierarchy. These pages can be added to the site navigation, s
 * **CSVImport:** Adds functionality for adding Items in bulk. Details on this process are below.
 * **Dropbox:** Adds a list of files that can be added to an Item when adding/editing an item removing the need to upload the file to the server.
 * **Hide Elements:** Adds the ability to hide metadata fields from the admin and front end. This is intended to remove needless fields when adding/editing Items and Collections.
-* **SimplePages:** <mark>Adds functionality to add freeform custom pages to a MOAS site. This is included with Omeka by default.</mark>
 * **SimpleVocab:** Adds functionality to change metadata fields to select boxes with a predefined set of options.
 * **SolrSearch:** Adds Solr as the search provider, also offering faceted searching.
 
@@ -51,9 +48,9 @@ These plugins have been forked from the original version produced by a third par
 
 ### General [→](/admin/settings/edit-settings)
 
-* **Administrator Email:** <mark>Erm...</mark>
-* **Site Title:** This will appear in the header of the site, so it's <mark>important to consider the length</mark>.
-* **Site Description:** This will appear over the featured item on the home page. <mark>Again, it's important to consider the length of this text.</mark>
+* **Administrator Email:** Must be set to `moas-admin@lists.nottingham.ac.uk`.
+* **Site Title:** This will appear in the header of the site, so it's important to keep it short: One or two words.
+* **Site Description:** This will appear over the featured item on the home page. Again, it's important to keep this text short – maybe 2 short sentances.
 * **Site Copyright Information:** This will appear in the footer of the site.
 * **Site Author Information:** This does not currently appear anywhere on the site.
 * **Tag Delimiter:** Defaults to `,`. Do not change.
@@ -61,7 +58,7 @@ These plugins have been forked from the original version produced by a third par
 
 ### Security [→](/admin/settings/edit-security)
 
-These settings can be used to place limits on file types that can be uploaded, exclude particular HTML tags from being used in WYSIWYG editors and set up Captcha. **There is no need to change any settings from the Omeka defaults.** 
+These settings can be used to place limits on file types that can be uploaded, exclude particular HTML tags from being used in WYSIWYG editors and set up Captcha. **There is no need to change any settings from the Omeka defaults.**
 
 ### Solr Search [→](/admin/settings/edit-search)
 
@@ -91,8 +88,8 @@ There are a series of options that adjust the theme's appearance and functionali
 
 ### Navigation [→](/admin/appearance/edit-navigation)
 
-Change the menu options on the main menu. <mark>Who sets this up?</mark>
+Change the menu options on the main menu. This will be quite specific depending on the archive, and will follow consultation from the UX team.
 
 ### Settings [→](/admin/appearance/edit-settings)
 
-Set image derivative sizes and display settings. **There is no need to change any settings from the Omeka defaults.** 
+Set image derivative sizes and display settings. **There is no need to change any settings from the Omeka defaults.**
