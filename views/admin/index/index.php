@@ -9,22 +9,25 @@
 
 
 <ul id="section-nav" class="navigation tabs">
-  <li><a href="#moas-content">Content</a></li>
   <li><a class="active" href="#moas-config">Config</a></li>
+  <li><a href="#moas-content">Content</a></li>
+  <li><a href="#moas-troubleshooting">Troubleshooting</a></li>
 </ul>
 
 
 <section class="ten columns alpha">
 
-    <p><strong>These documents are in progress – some information may be incomplete, and content that may need to be revised is <mark>marked</mark>.</strong></p>
-
-    <div id="moas-content">
+    <div id="moas-config">
+      <h1>Config</h1>
+      <?php echo $Parsedown->text(file_get_contents(dirname(__FILE__) . '/../../../docs/config.md')); ?>
+    </div>
+    <div id="moas-content" style="display: none;">
       <h1>Content</h1>
       <?php echo $Parsedown->text(file_get_contents(dirname(__FILE__) . '/../../../docs/content.md')); ?>
     </div>
-    <div id="moas-config" style="display: none;">
-      <h1>Config</h1>
-      <?php echo $Parsedown->text(file_get_contents(dirname(__FILE__) . '/../../../docs/config.md')); ?>
+    <div id="moas-troubleshooting" style="display: none;">
+      <h1>Troubleshooting</h1>
+      <?php echo $Parsedown->text(file_get_contents(dirname(__FILE__) . '/../../../docs/troubleshooting.md')); ?>
     </div>
 
 </section>
