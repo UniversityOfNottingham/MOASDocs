@@ -108,6 +108,6 @@ Set the menu options for the main menu. This will be quite specific depending on
 
 ### Settings [→](/admin/appearance/edit-settings)
 
-* **Display Settings, Results Per Page:** Set this is multiples of 12, so the grid view on the search results page neatly fills each row. Probably don't go higher than 36.
+* **Display Settings, Results Per Page:** Set this in multiples of 12, so the grid view on the search results page neatly fills each row. Probably don't go higher than 36.
 
 **There is no need to change any other settings from the Omeka defaults.**
