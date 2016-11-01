@@ -1,61 +1,34 @@
 ## Items
 
-### Item Types
+Adding an item is fairly self explanatory, though there are a few things to be aware of. At this point, assume Omeka has been properly configured with only relevant fields and plugins visible.
 
-* What is an item?
+* Setting an Item Type under Item Type Metadata is essential. The theme uses this information to adapt the layout to the content provided.
 
-### Dublin Core Metadata
+* For any field under Dublin Core, Item Type Metadata, MOAS Elements and MOAS Technical Elements it is possible to have more than one value. Click 'Add Input' beside the field and add as many records as required.
 
-* Specify fields that do not appear in the usual flow
-* Mention fields that are hidden, or leave them alone?
-* Explain that fields that have been added manually will not appear, excpect for 'People' item type
+* When adding files, pay attention to the Item Type selected and add files accordingly. Some files need to be in a particular order, and other files added will either make the page appear broken or not appear at all.
+  * For **Still Image** and **Project**, you may upload as many Still Images and PDFs as required.
+  * **Text** can accept one image and one audio file. It is important that the image is above the audio file (you can drag them into order).
+  * **Moving Image** and **Sound** can accept a single video/audio file and a single image (as a thumbnail). Ensure the image is above the audio file.
+  * **Digital Project** can accept one image as a header image.
+  * **People** accepts 2 images - a header/cover image and an avatar/profile picture. Ensure the avatar appears above the header/cover image.
+  * **Embedded Video** will display no files.
 
-### Item Type Metadata
 
-* Stress importance of selecting correct item type
-* Explain fields are specific to the selected item type
+* Check 'public' if you wish to make this item visible to site visitors. _You_ may still see an item if it's not set to public as private items appear to people logged in.
 
-### MOAS Elements
+* Checking 'featured' will add the item to the rotation of featured items on the homepage (filling the header with an image). Ensure that the item is an appropriate type (Still Image) and that the image that will be shown (the first image) is appropriate in term os dimensions (landscape) and content (you may have some items that contain disturbing images, or an image of a flyer that contains a lot of text. Neither of these are appropriate.).
 
-* Where these field appear
-* Explain field that are for settings, not display (related items, geolocation, map zoom level, download rights, download contact)
-
-### Files
-
-* Adding files
-* Dropbox plugin
-
-### Tags
-
-* Adding tags
-* What tags do
-* Naming convention
-* When to use things like 'Theme' instead
-* Clarify different naming for tags on the 'People' item type
-
-### Other options
-
-* Public
-* Featured (where these will appear, etc)
-* Adding to a collection
-
-### Bulk Item Creation
-
-* Explain the plugin
-* Settings to use
-* CSV template to download
-* Contact details for file upload?
+* Select the collection this item will be a part of this. This will cause the item to appear within the collection when it is being viewed and will show the collection title and description on the item page.
 
 ## Collections
 
-* Dublin Core Metadata
-* Public
-* Featured
+Collections are a means of grouping items. They can have their own metadata, though only the Title and Description will appear on the public facing site.
 
-## Home Page
+Like Items, collections must be made public to be visible to visitors not logged in. Note: making a Collection private will not hide the items it contains.
 
-* Title
-* Home page layout
-* Setting featured item/header image
-* Setting featured collection
-* Copyright details / Footer information
+Featured collections appear at the bottom of the home page in the same style as a featured Item. The image used will be the first image of the first item in the collection, so ensure that the content is appropriate.
+
+## Simple Pages
+
+What can you even say about this?
